@@ -1,0 +1,14 @@
+div{
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+    margin-bottom: 50px;
+}
+input{
+    font-size: 35px;
+}
+div h3{
+    margin: 5px;
+    font-size: 55px;
+}

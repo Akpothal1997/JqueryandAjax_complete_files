@@ -1,0 +1,50 @@
+1) to get the innerText of any element
+  JS
+  ---
+  element.innerText()
+  Jquery
+  ------
+  element.text();
+
+2) to set the innerText of any element
+
+ JavaScript =>  element.innerText = 'the text';
+ JQuery     => element.text('the text');
+
+3) to get the textbox value
+
+	JavaScript => textBox.value;
+	JQuery     => textBox.val();
+
+
+4) add any CSS styles to an element
+
+	JavaScript => element.style.color = 'white';
+	              element.style.backgroundColor = 'black';
+
+    Jquery     => element.css({
+						color : 'white',
+						backgroundColor : 'black'
+	               });
+
+5) to get the attribute of any element
+   Ex: <img src='abc.jpg'>
+
+   JavaScript => element.getAttribute('src'); // abc.jpg
+   Jquery     => element.attr('src'); // abc.jpg
+
+
+6) to set the attribute to any element
+   Ex: from <img src='abc.jpg'> To <img src='facebook.jpg'>
+
+   JavaScript => element.setAttribute('src','facebook.jpg');
+   Jquery     => element.attr('src','facebook.jpg');
+
+7) to add the innerHTML of any element
+
+	Ex: let htmlString = `<span style='color:red'>Good Morning</span>`;
+
+	JavaScript => element.innerHTML = htmlString;
+	              element.appendChild(htmlString);
+
+    Jquery     => element.append(htmlString);
